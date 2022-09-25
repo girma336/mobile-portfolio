@@ -18,6 +18,6 @@
 - W3School (www.w3school.com)
 
 ## License
-- girma tarekegn 
+- This project is MIT [MIT](./MIT.md) licensed.
 
 
