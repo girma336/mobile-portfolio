@@ -7,7 +7,9 @@
 - about my self
 
 ## Author 
-- Email [Girma Tarekegn] (tarekegngirma21@gmail.com)
+- Email [Girma Tarekegn] (https://email.com/tarekegngirma21@gmail.com)
+- GitHub [@girmatarekegn](https://github.com/girma336)
+- Twitter: [@GGt7045](https://twitter.com/GGt7045)
 
 ## build with 
 - Linters hrml-css
