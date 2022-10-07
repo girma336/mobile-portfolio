@@ -30,6 +30,8 @@ header {
   font-size: 18px;
   line-height: 20px;
   font-style: normal;
+  -webkit-transform: rotate(360deg);
+  -webkit-transition: -webkit-transform 4s;
 }
 
 .bars-mob {
@@ -647,9 +649,9 @@ button:active {
   margin-right: 24px;
 }
 
-/* #new-info:hover {
+#new-info:hover {
   transform: translate(12px, 12px);
-} */
+}
 
 .contact-fo {
   position: absolute;
@@ -665,8 +667,8 @@ button:active {
   margin-left: -16px;
 }
 
-.contact-fo input[type=text],
-.contact-fo input[type=email] {
+.contact-fo input[type="text"],
+.contact-fo input[type="email"] {
   width: 327px;
   height: 48px;
   border-radius: 8px;
