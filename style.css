@@ -30,6 +30,8 @@ header {
   font-size: 18px;
   line-height: 20px;
   font-style: normal;
+  -webkit-transform: rotate(360deg);
+  -webkit-transition: -webkit-transform 4s;
 }
 
 .bars-mob {
@@ -288,6 +290,23 @@ header {
 }
 
 .main-1 .nav-source li {
+  float: left;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-top: -20px;
+  background-color: #ebebff;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0, 03em;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  margin-left: -10px;
+}
+
+/*
+.main-1 .nav-source li {
   display: inline-flex;
   justify-content: start;
   border-radius: 8px;
@@ -302,7 +321,7 @@ header {
   font-weight: 500;
   background-color: #ebebff;
   list-style-type: none;
-}
+} */
 
 .button-m {
   width: 100px;
@@ -324,6 +343,11 @@ button {
   letter-spacing: 0.03em;
   color: #396df2;
   padding: 8px;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 4s;
 }
 
 button:hover {
@@ -358,6 +382,10 @@ button:active {
   line-height: 53px;
   font-weight: 750;
   color: #172b40;
+}
+
+.one-four:hover {
+  transform: scale(1.2);
 }
 
 .list-1 {
@@ -621,6 +649,10 @@ button:active {
   margin-right: 24px;
 }
 
+.contact-form #new-info:hover {
+  transform: translate(12px, 12px);
+}
+
 .contact-fo {
   position: absolute;
   top: 350px;
@@ -635,8 +667,8 @@ button:active {
   margin-left: -16px;
 }
 
-.contact-fo input[type=text],
-.contact-fo input[type=email] {
+.contact-fo input[type="text"],
+.contact-fo input[type="email"] {
   width: 327px;
   height: 48px;
   border-radius: 8px;
