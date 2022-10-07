@@ -30,11 +30,7 @@ header {
   font-size: 18px;
   line-height: 20px;
   font-style: normal;
-  -webkit-transform: rotate(360deg);
-  -webkit-transition: -webkit-transform 4s;
-  
 }
-
 
 .bars-mob {
   position: absolute;
@@ -290,6 +286,7 @@ header {
   margin-bottom: 30px;
   margin-left: -28px;
 }
+
 .nav-source li {
   float: left;
   list-style-type: none;
@@ -305,7 +302,8 @@ header {
   padding: 4px 12px 4px 12px;
   margin-left: -10px;
 }
-/* 
+
+/*
 .main-1 .nav-source li {
   display: inline-flex;
   justify-content: start;
@@ -355,7 +353,6 @@ button:hover {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
-
 }
 
 .main-1 button {
@@ -384,6 +381,7 @@ button:active {
   font-weight: 750;
   color: #172b40;
 }
+
 .one-four:hover {
   transform: scale(1.2);
 }
@@ -648,9 +646,10 @@ button:active {
   margin-left: 24px;
   margin-right: 24px;
 }
-#new-info:hover {
-  transform: translate(12px,12px);
-}
+
+/* #new-info:hover {
+  transform: translate(12px, 12px);
+} */
 
 .contact-fo {
   position: absolute;
