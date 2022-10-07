@@ -30,7 +30,11 @@ header {
   font-size: 18px;
   line-height: 20px;
   font-style: normal;
+  -webkit-transform: rotate(360deg);
+  -webkit-transition: -webkit-transform 4s;
+  
 }
+
 
 .bars-mob {
   position: absolute;
@@ -339,6 +343,11 @@ button {
   letter-spacing: 0.03em;
   color: #396df2;
   padding: 8px;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 4s;
 }
 
 button:hover {
@@ -346,6 +355,7 @@ button:hover {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
+
 }
 
 .main-1 button {
@@ -373,6 +383,9 @@ button:active {
   line-height: 53px;
   font-weight: 750;
   color: #172b40;
+}
+.one-four:hover {
+  transform: scale(1.2);
 }
 
 .list-1 {
@@ -634,6 +647,9 @@ button:active {
   text-align: center;
   margin-left: 24px;
   margin-right: 24px;
+}
+#new-info:hover {
+  transform: translate(12px,12px);
 }
 
 .contact-fo {
