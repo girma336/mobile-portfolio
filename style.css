@@ -286,7 +286,22 @@ header {
   margin-bottom: 30px;
   margin-left: -28px;
 }
-
+.nav-source li {
+  float: left;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-top: -20px;
+  background-color: #ebebff;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0, 03em;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  margin-left: -10px;
+}
+/* 
 .main-1 .nav-source li {
   display: inline-flex;
   justify-content: start;
@@ -302,7 +317,7 @@ header {
   font-weight: 500;
   background-color: #ebebff;
   list-style-type: none;
-}
+} */
 
 .button-m {
   width: 100px;
