@@ -289,7 +289,7 @@ header {
   margin-left: -28px;
 }
 
-.nav-source li {
+.main-1 .nav-source li {
   float: left;
   list-style-type: none;
   margin-right: 20px;
@@ -649,7 +649,7 @@ button:active {
   margin-right: 24px;
 }
 
-#new-info:hover {
+.contact-form #new-info:hover {
   transform: translate(12px, 12px);
 }
 
